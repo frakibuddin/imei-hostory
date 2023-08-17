@@ -40,7 +40,8 @@
                         Lorem ipsum dolor sit.
                     </h2>
                     <div class="input-field">
-                        <input type="text" placeholder="IMEI or Serial Number">
+                        <input id="input-field" maxlength="15" type="text" min="5" placeholder="IMEI or Serial Number"
+                            onkeyup="validate()">
                     </div>
                     <button class="submit-btn">CHECK</button>
 
@@ -79,6 +80,19 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        function validate() {
+            var element = document.getElementById('input-field');
+            element.value = element.value.replace(/[^a-zA-Z0-9 .]+/, '');
+
+            if (element.value.length == '15') {
+                alert("Should be maximun value 15")
+            }
+
+        }
+    </script>
 </body>
 
 </html>

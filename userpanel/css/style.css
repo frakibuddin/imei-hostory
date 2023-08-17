@@ -92,7 +92,7 @@ header {
 .profile {
   background: #fff;
   border-radius: 3rem;
-  box-shadow: 0px 2px 4px 0px #000000c2;
+  box-shadow: 0px 2px 4px 0px #00000049;
   padding: 1.5rem 1.5rem;
   display: flex;
   align-items: center;
@@ -119,7 +119,7 @@ header {
   outline: 0;
   border: 0;
   background: #fff;
-  box-shadow: 0px 2px 4px 0px #000000c2;
+  box-shadow: 0px 2px 4px 0px #00000049;
   padding: 1.5rem 2rem;
   border-radius: 3rem;
   font-size: 1.8rem;
@@ -148,7 +148,7 @@ header {
   align-items: center;
   justify-content: center;
   background: #fff;
-  box-shadow: 0px 2px 4px 0px #000000c2;
+  box-shadow: 0px 2px 4px 0px #00000049;
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
@@ -162,7 +162,7 @@ header {
 }
 .hover-eff:hover,
 .hover-eff:focus {
-  box-shadow: inset 0px 2px 4px 0px #000000c2 !important;
+  box-shadow: 0px 2px 4px 0px #00000031 !important;
 }
 /* popup */
 .popup {
@@ -218,15 +218,15 @@ header {
   margin: 25px 0;
   font-size: 0.9em;
   min-width: 400px;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.2);
   width: 100%;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 .styled-table thead tr {
-  background: #00000077;
-  color: #ffffff;
+  background: #f6f6f6;
+  color: #000000;
   text-align: left;
 }
 .styled-table th,
@@ -234,27 +234,21 @@ header {
   padding: 2rem 1.5rem;
 }
 .styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #f6f6f6;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #00000093;
-}
 .sub-head {
   font-size: 1.8rem;
   margin: 1rem 0;
 }
 .btn-view {
-  background: #4d6ec2;
+  background: -o-linear-gradient(45deg, #4d6ec2, #a245be);
+  background: linear-gradient(45deg, #4d6ec2, #a245be);
   padding: 1rem 2rem;
   border-radius: 3rem;
   color: #fff;
   text-decoration: none;
-  box-shadow: 0px 2px 4px 0px #000000c2;
+  box-shadow: 0px 2px 4px 0px #00000088;
   display: inline-block;
   transition: 0.3s;
 }
@@ -313,5 +307,13 @@ header {
   .table-inner {
     max-width: 100rem;
     overflow-x: scroll;
+  }
+  .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup .popup-inner {
+    width: 95%;
   }
 }

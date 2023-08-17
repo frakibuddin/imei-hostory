@@ -101,7 +101,7 @@ header menu ul li:hover {
   margin-top: 50px;
 }
 .input-field {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .input-field input {
@@ -205,5 +205,8 @@ footer {
   }
   .desc {
     font-size: 18px;
+  }
+  .input-field {
+    width: 90%;
   }
 }

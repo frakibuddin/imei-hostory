@@ -21,35 +21,84 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">About</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </menu>
                 </nav>
             </div>
         </header>
-        <section class="main-section">
-            <div class="container">
-                <h1 class="heading">CHECK IMEI IPHONE OR SERIAL NUMBER FOR APPLE WARRANTY CHECK.</h1>
-                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem eum magnam nemo
-                    vero rerum
-                    nesciunt quod numquam cumque? Enim, culpa consectetur similique ab voluptates quos iusto impedit in
-                    quod.</p>
-
-                <form action="">
-                    <h2 class="form-heading">
-                        Lorem ipsum dolor sit.
-                    </h2>
-                    <div class="input-field">
-                        <input id="input-field" maxlength="15" type="text" min="5" placeholder="IMEI or Serial Number"
-                            onkeyup="validate()">
+        <section class="service-section py-5 ">
+            <div class="container mb-5">
+                <h1 class="section-heading text-center mb-4">Our Services</h1>
+                <div class="row">
+                    <div class="col table-responsive">
+                        <table class="table ">
+                            <thead>
+                                <tr>
+                                    <th scope="col">SL</th>
+                                    <th scope="col">Service Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">01</th>
+                                    <td>Service one</td>
+                                    <td>$85</td>
+                                    <td>
+                                        <span class="bg-primary text-light shadow p-1 rounded">abilable</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <button class="submit-btn">CHECK</button>
-
-                </form>
+                </div>
             </div>
         </section>
     </div>
+
     <footer>
         <div class="container">
             <div class="footer">
@@ -83,17 +132,7 @@
     </footer>
 
 
-    <script>
-        function validate() {
-            var element = document.getElementById('input-field');
-            element.value = element.value.replace(/[^a-zA-Z0-9 .]+/, '');
 
-            if (element.value.length == '15') {
-                alert("Should be maximun value 15")
-            }
-
-        }
-    </script>
 </body>
 
 </html>
